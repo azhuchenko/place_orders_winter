@@ -43,7 +43,7 @@ def set_order_id(file="order_template.json"):
     orders = []
     with open("order_template.json", "r+") as templ:
         templ = json.loads(templ.read())
-        order_id = f"ppMigrationTest{random.randint(0, 9999999)}"
+        order_id = f"delta{random.randint(0, 999999)}"
         orders.append(order_id)
         templ["order-id"] = order_id
         templ["ecom-order-id"] = order_id
