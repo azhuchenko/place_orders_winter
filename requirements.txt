@@ -8,5 +8,5 @@ pytimeparse==1.1.8
 pytz==2019.3
 requests==2.22.0
 six==1.14.0
-urllib3==1.25.7
+urllib3==1.26.5
 zulu==1.2.0
